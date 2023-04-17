@@ -34,19 +34,20 @@ public class UIControlPanel : MonoBehaviour
         Service.EventManager.AddListener(EventId.SetScreenDistance, SetScreenDistance);
         Service.EventManager.AddListener(EventId.SetScreenDivergence, SetScreenDivergence);
 
+        gameObject.SetActive(false);
         //EmotesButton.PressCallback = ShowEmotesPanel;
     }
 
     private bool OnScreenMovedCloser(object cookie)
     {
-        ++currentDistance;
+        --currentDistance;
         UpdateDivergenceAndDistanceFields();
         return false;
     }
 
     private bool OnScreenMovedFurther(object cookie)
     {
-        --currentDistance;
+        ++currentDistance;
         UpdateDivergenceAndDistanceFields();
         return false;
     }
@@ -75,14 +76,14 @@ public class UIControlPanel : MonoBehaviour
 
     private bool SetScreenDistance(object cookie)
     {
-        currentDistance = (int)cookie;
+        currentDistance = Mathf.RoundToInt((float)cookie);
         UpdateDivergenceAndDistanceFields();
         return false;
     }
 
     private bool SetScreenDivergence(object cookie)
     {
-        currentDivergence = (int)cookie;
+        currentDivergence = Mathf.RoundToInt((float)cookie);
         UpdateDivergenceAndDistanceFields();
         return false;
     }
