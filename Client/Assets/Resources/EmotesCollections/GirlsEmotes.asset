@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c424ff38d1ad0a644954e27a367cde55, type: 3}
+  m_Name: GirlsEmotes
+  m_EditorClassIdentifier: 
+  Emotes:
+  - emoteResources:
+    - {fileID: 5962509898660692338, guid: 00fd1075ffab8eb48aa1ab2cd2801780, type: 3}
+    Messages: {fileID: 0}
+    ButtonText: Cats
+  - emoteResources:
+    - {fileID: 5962509898660692338, guid: 07f6f9a36a656fa43af9ba50be63883e, type: 3}
+    Messages: {fileID: 0}
+    ButtonText: Butthole
+  - emoteResources:
+    - {fileID: 5962509898660692338, guid: 930990791c5945743a99f807b5435c99, type: 3}
+    Messages: {fileID: 0}
+    ButtonText: Canaan
+  - emoteResources:
+    - {fileID: 5962509898660692338, guid: 07d1d27311c160945b1129ebc10653b4, type: 3}
+    Messages: {fileID: 0}
+    ButtonText: A Round
+  - emoteResources:
+    - {fileID: 6971735443372416382, guid: cfc831b8d685d894981838051ffda003, type: 3}
+    - {fileID: 830603732145867778, guid: f5db0bd9831b24b47a581bfa56826fb7, type: 3}
+    Messages: {fileID: 0}
+    ButtonText: Fart
+  - emoteResources:
+    - {fileID: 5962509898660692338, guid: 00ca01fcee03a1147907465a87dc8c8c, type: 3}
+    Messages: {fileID: 0}
+    ButtonText: Scary Canaan

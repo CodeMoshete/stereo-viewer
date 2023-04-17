@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40101aa9459a8c3459dd1c9d959a9a7e, type: 3}
+  m_Name: GasMessages
+  m_EditorClassIdentifier: 
+  MessagePool:
+  - ' farted.'
+  - ' ripped a big one.'
+  - ' blew a hole in their pants.'
+  - ' cut the cheese.'
+  - ' let fly a mighty fart blast.'
+  - ' gassed the crowd.'
+  - ' dusted the crops.'
+  - ' nearly shit their pants.'
+  - ' baked an air biscuit.'
+  - ' beefed.'
+  - ' stepped on a duck.'
+  - ' let slip the farts of war.'
+  - ' blew it out their ass.'
+  - ' likes the smell of their own farts.'
+  - ' dealt it so you could smelt it.'
+  - ' deployed their biological weaponry.'
+  - ' let ''er rip.'
+  - ' unleashed their colon.'
+  - ' stained their undies.'
+  - ' unleased an ass queef.'
+  - ' tooted.'
+  - ' gave an English ass toot.'

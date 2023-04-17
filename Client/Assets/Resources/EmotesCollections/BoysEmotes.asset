@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c424ff38d1ad0a644954e27a367cde55, type: 3}
+  m_Name: BoysEmotes
+  m_EditorClassIdentifier: 
+  Emotes:
+  - emoteResources:
+    - {fileID: 6971735443372416382, guid: cfc831b8d685d894981838051ffda003, type: 3}
+    - {fileID: 830603732145867778, guid: f5db0bd9831b24b47a581bfa56826fb7, type: 3}
+    Messages: {fileID: 11400000, guid: 433fe2e1878ae63418c30abdacbff44f, type: 2}
+    ButtonText: Fart
+  - emoteResources:
+    - {fileID: 266925982599014044, guid: 4f9f5e7fdbf238f41bc11ee3ec547334, type: 3}
+    Messages: {fileID: 0}
+    ButtonText: China
+  - emoteResources:
+    - {fileID: 5962509898660692338, guid: 07d1d27311c160945b1129ebc10653b4, type: 3}
+    Messages: {fileID: 0}
+    ButtonText: A Round
+  - emoteResources:
+    - {fileID: 5962509898660692338, guid: 930990791c5945743a99f807b5435c99, type: 3}
+    Messages: {fileID: 0}
+    ButtonText: Canaan
+  - emoteResources:
+    - {fileID: 5962509898660692338, guid: 07f6f9a36a656fa43af9ba50be63883e, type: 3}
+    Messages: {fileID: 0}
+    ButtonText: Butthole
+  - emoteResources:
+    - {fileID: 5962509898660692338, guid: 0ac19c7012b751e4888862349598807c, type: 3}
+    Messages: {fileID: 0}
+    ButtonText: My Boy
+  - emoteResources:
+    - {fileID: 5962509898660692338, guid: 1bd021a515955e84ba05bd8c3d0ccb60, type: 3}
+    Messages: {fileID: 0}
+    ButtonText: Bird
+  - emoteResources:
+    - {fileID: 5962509898660692338, guid: 008eecb751dac774a9ee285ea0ef777e, type: 3}
+    Messages: {fileID: 0}
+    ButtonText: Play Him Off
+  - emoteResources:
+    - {fileID: 5962509898660692338, guid: c0a8f3e5ecc00c0448e1599ccab94050, type: 3}
+    Messages: {fileID: 0}
+    ButtonText: Luck
+  - emoteResources:
+    - {fileID: 5962509898660692338, guid: 93a9d5539b77a3f438d30419bd3bcca8, type: 3}
+    Messages: {fileID: 0}
+    ButtonText: Leo
+  - emoteResources:
+    - {fileID: 5962509898660692338, guid: 0e5a71f6647a87046aca47fa17a52ef1, type: 3}
+    Messages: {fileID: 0}
+    ButtonText: KoolAid
